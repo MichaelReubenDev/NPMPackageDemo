@@ -1,11 +1,25 @@
 {
   "name": "modulepackage",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "Testing serves no real purpose ",
+  "public": false,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelReubenDev/NPMPackageDemo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MichaelReubenDev/NPMPackageDemo/issues"
+  },
+  "homepage": "https://github.com/MichaelReubenDev/NPMPackageDemo#readme",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^21.0.0"
+  }
 }
